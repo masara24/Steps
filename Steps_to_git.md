@@ -2,13 +2,25 @@
 ## Git command
 
 ```
+
+
+git config core.autocrlf false
+
+git config --global user.email "Clear@Clear.com"
+
+git config --global user.name "Clear"
+
 git config --global -l
 
 git clone https://github.com/masara24/Steps.git
 
 git remote add origin https://github.com/masara24/Steps.git
 
+git add *.md
+git commit -m "up"
+git push
 
+git remote set-url origin https://<your_token>@github.com/masara24/Steps.git
 ```
 
 ## Windows Log
