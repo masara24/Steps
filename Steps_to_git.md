@@ -1,10 +1,9 @@
 
 ## Git command
 
+- config
+
 ```
-
-
-git config core.autocrlf false
 
 git config --global user.email "Clear@Clear.com"
 
@@ -12,14 +11,37 @@ git config --global user.name "Clear"
 
 git config --global -l
 
+
+
+```
+
+- clone or pull
+
+```
 git clone https://github.com/masara24/Steps.git
 
+# https only, disable ssl
+git config --global http.sslVerify false
+
+# pull force the local 
+git fetch --all
+git reset --hard origin/main
+git pull
+```
+
+- add remote and push
+
+```
 git remote add origin https://github.com/masara24/Steps.git
 
+# the nextline...
+git config core.autocrlf false
+
 git add *.md
-git commit -m "up"
+git commit -m "update"
 git push
 
+# use token
 git remote set-url origin https://<your_token>@github.com/masara24/Steps.git
 ```
 

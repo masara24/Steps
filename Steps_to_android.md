@@ -1,18 +1,18 @@
 # Click_ANDROID
 
-## Git
+## Repo 
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- [ ] https://github.com/masara24/Steps.git
+- [ ] Steps_to_android\app\src\main\java\com\example\clickandexit
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/uMicroVision/empety_android.git
+git remote add origin https://github.com/masara24/Steps.git
 git branch -M main
 git push -uf origin main
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+git config --global user.email "Clear@Clear.com"
+git config --global user.name "Clear"
 git add .
 git commit -m "update"
 git push
@@ -29,6 +29,9 @@ and
 
 Copy this folder into project,
 
+and 
+
+upgrade
 ```
 
 ## Linux
