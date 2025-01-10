@@ -4,6 +4,7 @@
 
 - [ ] https://github.com/masara24/Steps.git
 - [ ] Steps_to_android\app\src\main\java\com\example\clickandexit
+- [AS](https://developer.android.google.cn/studio?hl=zh-cn)
 
 ```
 cd existing_repo
@@ -23,7 +24,9 @@ git push
 ## Windows
 
 ```
-Download Studio, AGP 8.9.0, https://developer.android.google.cn/studio?hl=zh-cn
+Download Studio, https://www.androiddevtools.cn/#google_vignette, 
+
+and upgrade...
 
 and 
 
