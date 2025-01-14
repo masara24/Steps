@@ -1,3 +1,19 @@
+## Pip command
+
+```
+pip install -i https://mirrors.aliyun.com/pypi/simple/--trusted-host mirrors.aliyun.com numpy
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple efinance
+
+pip install dsxkline
+
+#pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pysqlite3
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple matplotlib
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple stockstats
+```
+
 ## Git command
 
 ```
@@ -7,9 +23,9 @@ git clone https://github.com/masara24/Steps.git
 
 notepad Steps_to_trade.md
 
-# C:\Users\Administrator\Downloads\PortableGit\python310\Scripts
+# C:\Users\Administrator\Downloads\PortableGit\python311\Scripts
 
-PATH=C:\Users\Administrator\Downloads\PortableGit\python310\Scripts;C:\Users\Administrator\Downloads\PortableGit\python310;C:\Users\Administrator\Downloads\PortableGit\cmd;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps
+PATH=C:\Users\Administrator\Downloads\PortableGit\python311\Scripts;C:\Users\Administrator\Downloads\PortableGit\python311;C:\Users\Administrator\Downloads\PortableGit\cmd;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps
 
 # download jsonpath 
 
@@ -42,16 +58,3 @@ url_base = "http://www.ultimate.com/phil/python/"
 pip install .
 ```
 
-## Pip command
-
-```
-pip install -i https://mirrors.aliyun.com/pypi/simple/--trusted-host mirrors.aliyun.com numpy
-
-pip install dsxkline
-
-pip install efinance
-
-pip install matplotlib
-
-pip install stockstats
-```

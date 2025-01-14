@@ -37,7 +37,7 @@ git remote add origin https://github.com/masara24/Steps.git
 # the nextline...
 git config core.autocrlf false
 
-git add *.md
+git add *
 git commit -m "update"
 git push
 
